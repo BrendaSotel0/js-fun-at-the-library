@@ -9,6 +9,9 @@ function createLibrary(a) {
   }
   return library
 }
+function addBook(theLibrary, theBook) {
+  theLibrary.shelves.fantasy.push(theBook)
+}
 
 module.exports = {
    createLibrary,
